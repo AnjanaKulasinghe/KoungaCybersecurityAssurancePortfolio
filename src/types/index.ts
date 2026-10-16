@@ -1,0 +1,2 @@
+export type Application = { id:string; name:string; short:string; domain:string; kind:string; stack:string; data:string[]; domains:string[]; complexity:string; icon:string; overview:string; users:string; functionality:string[]; architecture:string; auth:string; practices:string[]; evidence:string; unknowns:string[]; topics:string[]; source:string; };
+export type AssessmentArea = { title:string; icon:string; investigate:string; apps:string[]; standards:string[]; outcome:string; deliverable:string; };

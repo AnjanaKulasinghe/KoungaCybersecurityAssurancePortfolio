@@ -1,0 +1,1 @@
+export function SectionHeading({eyebrow,title,description,light=false}:{eyebrow:string;title:string;description?:string;light?:boolean}){return <div className={light?'section-heading light':'section-heading'}><p className="eyebrow">{eyebrow}</p><h2>{title}</h2>{description&&<p className="section-desc">{description}</p>}</div>}
